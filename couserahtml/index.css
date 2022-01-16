@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.6%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.box{
+    margin-top: 7rem;
+    margin-left: 3%;
+    background-color: rgba(0,0,0,0.3);
+    width:29%;
+    height: auto;
+    float: left;
+    font-size: 1.6rem;
+    border: 0.2rem solid black;
+
+}
+.box3{
+    margin-right:3% ;
+}
+.sub_box{
+    float: right;
+    padding-top: 0.2rem;
+    width: 25%;
+    text-align: center;
+    height: 2.5rem;
+    border: 0.1rem solid black;
+    
+    position: relative;
+    top: -0.1rem;
+    right:-0.1rem ;
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+   
+} 
+
+.content{
+    float: left;
+    padding: 1rem;
+}
+.sub_box1{
+    background-color: pink;
+}
+.sub_box2{
+    background-color: red;
+    color:white;
+}
+.sub_box3{
+    background-color: sandybrown;
+}
+
+@media  (min-width: 768px) and (max-width: 991px){
+    .box1, .box2{
+            float: left;
+            margin-left: 3%;
+            width: 45.5%;
+        } 
+    .box2{
+        margin-right: 3%;
+    }    
+    .box3{
+        width: 94%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }  
+}
+    @media (min-width:0px) and (max-width:767px){
+        .box{
+            float: left;
+            margin-left: 3%;
+            margin-right: 3%;
+            width:94%;
+        }
+    }
+        
+
+    
+        
+    
